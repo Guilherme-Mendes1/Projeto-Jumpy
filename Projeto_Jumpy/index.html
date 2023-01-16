@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,800;1,900&display=swap" rel="stylesheet">    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="">
+    </header>
+    <section>
+            <div >
+                <h1>
+                    JUMPY
+                </h1>
+                <h2>
+                    Bem vindo ao Jumpy!
+                </h2>
+            </div>
+        <form action="" name="formCadastro" onsubmit="return validaForm()">
+            <div class="inputCenter">
+                <h6>Nome Completo:</h6><br>
+                <input type="text" placeholder="Nome Completo" id="name" ><br>
+                <p id="name1" style="color:red"></p>
+            </div>
+
+            <div class="inputCenter">
+                <h6 >Email</h6><br>
+                <input type="email" placeholder="Email@email.com" id="email" >
+                <p id="email1" style="color:red" ;></p>
+            </div>
+
+            <div class="inputCenter">
+                <h6 >Telefone:</h6><br>
+                <input type="tel" placeholder="(00) 00000-0000" id="tel" >
+                <p id="tel1" style="color:red"></p>
+            </div>
+
+            <div class="inputCenter">
+                <h6 >CPF:</h6><br>
+                <input type="number" placeholder="000.000.000-00" id="cpf" >
+                <p id="cpf1" style="color:red"></p>
+            </div>
+
+            <div class="inputCenter">
+                <h6 >Senha</h6><br>
+                <input type="password" placeholder="************" id="senha" >
+                <p id="senha1" style="color:red"></p>               
+            </div>
+
+            <input id="button" type="submit" value="Cadastrar">
+            <p id="button1" style="color:red"></p> 
+        </form>
+    </section>
+
+    <script src="jumpy.js"></script>
+</body>
+</html>
